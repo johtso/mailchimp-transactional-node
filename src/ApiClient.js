@@ -93,7 +93,7 @@ exports.prototype.post = function post(path, body = {}) {
   }
 
   return axios
-    .post(url, body)
+    .post(url, body, {adapter: 'fetch'})
     .then(function (response) {
       return response.data;
     })
