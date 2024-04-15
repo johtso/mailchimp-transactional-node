@@ -8,7 +8,7 @@
     "fs": false
   },
   "dependencies": {
-    "axios": "https://github.com/sgammon/axios-fetch.git#feat/fetch-adapter"
+    "axios": "github:sgammon/axios-fetch#feat/fetch-adapter"
   },
   "homepage": "https://github.com/mailchimp/mailchimp-transactional-node",
   "repository": {
