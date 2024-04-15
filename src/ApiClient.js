@@ -14,7 +14,7 @@
  *
  */
 
-var axios = require('axios');
+var axios = require('axios/generic');
 
 axios.defaults.timeout = 300000; // 300s
 
